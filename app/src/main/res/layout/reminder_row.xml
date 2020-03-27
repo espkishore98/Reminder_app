@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/remindername"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_margin="10dp"
+        android:baselineAligned="false"
+        android:text="Reminder heading" />
+
+    <EditText
+        android:id="@+id/reminderdescription"
+        android:layout_width="match_parent"
+        android:layout_height="127dp"
+        android:layout_margin="10dp"
+        android:baselineAligned="false"
+        android:text="Reminder description" />
+
+    <Button
+        android:id="@+id/buttondate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="date" />
+
+
+    <EditText
+        android:id="@+id/reminderdate"
+        android:layout_width="389dp"
+
+        android:layout_height="36dp"
+        android:layout_margin="10dp"
+        android:text="26 jan 2019" />
+
+    <Button
+        android:id="@+id/buttontime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="time" />
+
+    <EditText
+        android:id="@+id/remindertime"
+        android:layout_width="389dp"
+
+        android:layout_height="36dp"
+        android:layout_margin="10dp"
+        android:text="00:00:00" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="save" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete" />
+
+
+
+
+</LinearLayout>
